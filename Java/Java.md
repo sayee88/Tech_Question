@@ -27,10 +27,27 @@
 
 
 <details>
+    <summary style="font-size : 16px;"><strong>  Q. JVM의 역할에 대해서 설명하시오.   </strong></summary></br>
+   
+   JVM은 스택 기반으로 동작하며, Java Byte Code를 OS에 맞게 해석 해주는 역할을 하고 가비지컬렉션을 통해 자동적인 메모리 관리를 해줍니다.
+
+</details></br>
+
+
+<details>
     <summary style="font-size : 16px;"><strong>  Q. 자바와 자바 스크립트의 차이는?   </strong></summary></br>
    
    둘 모두 자바라는 단어가 들어갈 뿐 직접적인 관련은 없습니다. <br>
 자바는 어플리케이션을 개발하기 위한 프로그래밍 언어를 뜻하며 자바스크립트는 정적인 HTML 페이지를 브라우저 상에서 동적으로 보이도록 하는 웹 클라이언트 사이드 언어를 뜻합니다.
+
+</details></br>
+
+
+<details>
+    <summary style="font-size : 16px;"><strong>  Q. 오버라이딩(Overriding)과 오버로딩(Overloading)에 대해 설명해주세요.   </strong></summary></br>
+   
+   오버라이딩(Overriding)은 상위 클래스에 있는 메소드를 하위 클래스에서 재정의 하는 것을 말하고, <br>
+    오버로딩(Overloading)은 매개변수의 개수나 타입을 다르게 하여 같은 이름의 메소드를 여러 개 정의하는 것을 말합니다.
 
 </details></br>
 
@@ -48,3 +65,30 @@
    특징 : 캡슐화, 상속, 다형성, 추상화<br>
    
 </details></br>
+
+
+<details>
+    <summary style="font-size : 16px;"><strong>  Q. 캡슐화를 설명하고 왜 해야하는지 설명하시오.   </strong></summary></br>
+   
+캡슐화는 객체에 대한 관련 데이터들과 행위를 하나로 묶어 외부에 노출되지 않도록 은닉하는 것을 말합니다. <br>
+캡슐화를 하면 객체의 사용자로부터 정보 은폐가 가능하며 객체를 포함한 정보의 손상과 오용을 막을 수 있습니다 . <br>
+또한 처리된 결과만 사용하므로 객체의 이식성이 좋습니다.<br>
+
+</details></br>
+
+
+<details>
+    <summary style="font-size : 16px;"><strong>  Q. 다형성이란 무엇이고 동적 바인딩에 대해 설명해 주세요.   </strong></summary></br>
+   
+   다형성이란 동일한 부모 클래스 타입을 상속받은 후손 클래스 타입들을 부모 타입으로 처리하는 기술을 의미 합니다.<br>
+   <strong>(== 다형성이란 하나의 객체에 여러 가지 타입을 대입할 수 있다는 것을 의미합니다.)</strong><br><br>
+   
+   이 다형성을 지원하기 위해서는 동적 바인딩이 필수적입니다.<br>
+   동적 바인딩이란 부모타입으로 참조되는 후손객체의 오버라이딩된 메소드에 적용되며, 컴파일 시에는 부모의 메소드를 정적 바인딩해 두었다가 <br>
+   프로그램이 실행될 때 참 조하는 후손의 오버라이딩된 메소드로 연결을 바꾸어 실행하는 것을 말합니다.<br>
+   (실행하는 시점에 성격이 결정되는것)<br>
+
+</details></br>
+
+
+
